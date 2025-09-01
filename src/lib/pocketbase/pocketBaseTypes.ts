@@ -11,6 +11,11 @@ export enum Collections {
 	Mfas = "_mfas",
 	Otps = "_otps",
 	Superusers = "_superusers",
+	Characters = "characters",
+	GameInstances = "gameInstances",
+	Games = "games",
+	ItemInstances = "itemInstances",
+	Items = "items",
 	Users = "users",
 }
 
@@ -90,6 +95,53 @@ export type SuperusersRecord = {
 	verified?: boolean
 }
 
+export type CharactersRecord = {
+	charisma?: number
+	constitution?: number
+	created?: IsoDateString
+	dexterity?: number
+	id: string
+	intelligence?: number
+	strength?: number
+	updated?: IsoDateString
+	userId?: RecordIdString
+	wisdom?: number
+}
+
+export type GameInstancesRecord = {
+	created?: IsoDateString
+	gameId?: RecordIdString
+	id: string
+	updated?: IsoDateString
+	userId?: RecordIdString
+}
+
+export type GamesRecord = {
+	created?: IsoDateString
+	description?: string
+	id: string
+	itemIds?: RecordIdString
+	prompt?: string
+	title?: string
+	updated?: IsoDateString
+}
+
+export type ItemInstancesRecord = {
+	created?: IsoDateString
+	id: string
+	itemId?: RecordIdString
+	updated?: IsoDateString
+}
+
+export type ItemsRecord = {
+	created?: IsoDateString
+	description?: string
+	gameId?: RecordIdString
+	id: string
+	name?: string
+	updated?: IsoDateString
+}
+
 export type UsersRecord = {
 	avatar?: string
 	created?: IsoDateString
@@ -109,6 +161,11 @@ export type ExternalauthsResponse<Texpand = unknown> = Required<ExternalauthsRec
 export type MfasResponse<Texpand = unknown> = Required<MfasRecord> & BaseSystemFields<Texpand>
 export type OtpsResponse<Texpand = unknown> = Required<OtpsRecord> & BaseSystemFields<Texpand>
 export type SuperusersResponse<Texpand = unknown> = Required<SuperusersRecord> & AuthSystemFields<Texpand>
+export type CharactersResponse<Texpand = unknown> = Required<CharactersRecord> & BaseSystemFields<Texpand>
+export type GameInstancesResponse<Texpand = unknown> = Required<GameInstancesRecord> & BaseSystemFields<Texpand>
+export type GamesResponse<Texpand = unknown> = Required<GamesRecord> & BaseSystemFields<Texpand>
+export type ItemInstancesResponse<Texpand = unknown> = Required<ItemInstancesRecord> & BaseSystemFields<Texpand>
+export type ItemsResponse<Texpand = unknown> = Required<ItemsRecord> & BaseSystemFields<Texpand>
 export type UsersResponse<Texpand = unknown> = Required<UsersRecord> & AuthSystemFields<Texpand>
 
 // Types containing all Records and Responses, useful for creating typing helper functions
@@ -119,6 +176,11 @@ export type CollectionRecords = {
 	_mfas: MfasRecord
 	_otps: OtpsRecord
 	_superusers: SuperusersRecord
+	characters: CharactersRecord
+	gameInstances: GameInstancesRecord
+	games: GamesRecord
+	itemInstances: ItemInstancesRecord
+	items: ItemsRecord
 	users: UsersRecord
 }
 
@@ -128,6 +190,11 @@ export type CollectionResponses = {
 	_mfas: MfasResponse
 	_otps: OtpsResponse
 	_superusers: SuperusersResponse
+	characters: CharactersResponse
+	gameInstances: GameInstancesResponse
+	games: GamesResponse
+	itemInstances: ItemInstancesResponse
+	items: ItemsResponse
 	users: UsersResponse
 }
 
@@ -140,5 +207,10 @@ export type TypedPocketBase = PocketBase & {
 	collection(idOrName: '_mfas'): RecordService<MfasResponse>
 	collection(idOrName: '_otps'): RecordService<OtpsResponse>
 	collection(idOrName: '_superusers'): RecordService<SuperusersResponse>
+	collection(idOrName: 'characters'): RecordService<CharactersResponse>
+	collection(idOrName: 'gameInstances'): RecordService<GameInstancesResponse>
+	collection(idOrName: 'games'): RecordService<GamesResponse>
+	collection(idOrName: 'itemInstances'): RecordService<ItemInstancesResponse>
+	collection(idOrName: 'items'): RecordService<ItemsResponse>
 	collection(idOrName: 'users'): RecordService<UsersResponse>
 }
