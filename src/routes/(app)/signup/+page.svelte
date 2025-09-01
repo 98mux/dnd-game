@@ -8,12 +8,12 @@
 	let error: string | undefined = $state(undefined);
 	let loading = $state(false);
 
-	const shouldRedirectHome = $derived(!userState.initializing && userState.isLoggedIn);
-	$effect(() => {
-		if (browser && shouldRedirectHome) {
-			window.location.href = '/';
-		}
-	});
+	// const shouldRedirectHome = $derived(!userState.initializing && userState.isLoggedIn);
+	// $effect(() => {
+	// 	if (browser && shouldRedirectHome) {
+	// 		window.location.href = '/';
+	// 	}
+	// });
 
 	async function signup(e: Event) {
 		e.preventDefault();

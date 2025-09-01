@@ -9,11 +9,11 @@
 	let loading = $state(false);
 
 	const shouldRedirectHome = $derived(!userState.initializing && userState.isLoggedIn);
-	$effect(() => {
-		if (browser && shouldRedirectHome) {
-			window.location.href = '/';
-		}
-	});
+	// $effect(() => {
+	// 	if (browser && shouldRedirectHome) {
+	// 		window.location.href = '/';
+	// 	}
+	// });
 
 	async function login(e: Event) {
 		e.preventDefault();
