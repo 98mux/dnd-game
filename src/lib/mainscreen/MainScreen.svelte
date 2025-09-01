@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { trpc } from '$lib/trpc/client';
+	import DiceThrowThrelte from '$lib/components/DiceThrowThrelte.svelte';
 
 	let result = $state('No result yet');
 	onMount(async () => {
@@ -11,3 +12,5 @@
 
 hello world
 {result}
+
+<DiceThrowThrelte />
