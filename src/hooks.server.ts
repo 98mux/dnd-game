@@ -32,16 +32,15 @@ const CORSHeaders: Handle = async ({ event, resolve }) => {
 	}
 	return response;
 };
-// import { createContext } from '$lib/trpc/context';
-// import { router } from '$lib/trpc/trpcAll';
+import { createContext } from '$lib/trpc/context';
+import { router } from '$lib/trpc/trpcAll';
 import { createTRPCHandle } from 'trpc-sveltekit';
 
-// const trpcHandle: Handle = createTRPCHandle({
-// 	router,
-// 	createContext,
-// 	onError: ({ type, path, error }) =>
-// 		console.error(`Encountered error while trying to process ${type} @ ${path}:`, error)
-// });
+const trpcHandle: Handle = createTRPCHandle({
+	router,
+	createContext,
+	onError: ({ type, path, error }) =>
+		console.error(`Encountered error while trying to process ${type} @ ${path}:`, error)
+});
 
-// export const handle = sequence(CORSPreflight, CORSHeaders, trpcHandle, CORSHeaders, CORSHeaders);
-export const handle = sequence(CORSPreflight, CORSHeaders, CORSHeaders, CORSHeaders);
+export const handle = sequence(CORSPreflight, CORSHeaders, trpcHandle, CORSHeaders, CORSHeaders);
