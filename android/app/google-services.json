@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143760104862",
+    "project_id": "become-fearless",
+    "storage_bucket": "become-fearless.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143760104862:android:c0404efa81f2050d078a8f",
+        "android_client_info": {
+          "package_name": "com.becomefearless.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFXqy537nhvpDqN2fIwOqI2jR5Z6MHUcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

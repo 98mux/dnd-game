@@ -1,0 +1,220 @@
+## Capacitor Plugins
+
+- 🟩 [@capacitor/haptics@5.0.6](https://github.com/ionic-team/capacitor-plugins.git) - (Latest 5.0.7)
+## Cordova Plugins
+
+## Dependencies
+
+- 🟩 [@capacitor/android@5.5.1](https://github.com/ionic-team/capacitor.git) - (Latest 5.7.4)
+- 🟩 [@capacitor/cli@5.5.1](https://github.com/ionic-team/capacitor.git) - (Latest 5.7.4)
+- 🟩 [@capacitor/core@5.5.1](https://github.com/ionic-team/capacitor.git) - (Latest 5.7.4)
+- 🟩 [@capacitor/ios@5.5.1](https://github.com/ionic-team/capacitor.git) - (Latest 5.7.4)
+- 🟩 [@locator/runtime@0.4.3](https://github.com/infi-pc/locatorjs.git)
+- 🟧 @motionone/svelte@10.16.4 - Unable to find information on npm.
+- 🟩 [@playwright/test@1.39.0](https://github.com/microsoft/playwright.git) - (Latest 1.43.0)
+- 🟩 [@sveltejs/adapter-static@3.0.0](https://github.com/sveltejs/kit.git) - (Latest 3.0.1)
+- 🟧 [@sveltejs/adapter-vercel@4.0.1](https://github.com/sveltejs/kit.git) - (Latest 5.2.0) - Is behind 1 major version.
+- 🟩 [@sveltejs/kit@2.5.5](https://github.com/sveltejs/kit.git)
+- 🟩 [@sveltejs/vite-plugin-svelte@3.0.1](https://github.com/sveltejs/vite-plugin-svelte.git) - (Latest 3.0.2)
+- 🟩 [@trpc/server@10.43.1](https://github.com/trpc/trpc.git) - (Latest 10.45.2)
+- 🟩 [@types/lodash@4.17.0](https://github.com/DefinitelyTyped/DefinitelyTyped.git)
+- 🟩 [@vite-pwa/assets-generator@0.0.10](https://github.com/vite-pwa/assets-generator.git) - (Latest 0.2.4)
+- 🟩 [@vite-pwa/sveltekit@0.2.7](https://github.com/vite-pwa/sveltekit.git) - (Latest 0.4.0)
+- 🟩 [autoprefixer@10.4.16](https://github.com/postcss/autoprefixer.git) - (Latest 10.4.19)
+- 🟧 [autosize@6.0.1](https://github.com/jackmoore/autosize.git) - May be unmaintained (1.1 years since last release)
+- 🟥 [clone@2.1.2](https://github.com/pvorb/node-clone.git) - Unmaintained (6 years since last release)
+- 🟩 [dayjs@1.11.10](https://github.com/iamkun/dayjs.git)
+- 🟩 [emoji-picker-element@1.21.2](https://github.com/nolanlawson/emoji-picker-element.git)
+- 🟥 [framework7-icons@5.0.5](https://github.com/framework7io/framework7-icons.git) - Unmaintained (2.5 years since last release)
+- 🟩 [idb-kv@2.2.0](https://github.com/kayleepop/idb-kv.git)
+- 🟩 [ionicons@7.2.1](https://github.com/ionic-team/ionicons.git) - (Latest 7.3.1)
+- 🟩 [jsonwebtoken@9.0.2](https://github.com/auth0/node-jsonwebtoken.git)
+- 🟩 [konsta@3.1.1](https://github.com/konstaui/konsta.git) - (Latest 3.1.3)
+- 🟥 [lodash@4.17.21](https://github.com/lodash/lodash.git) - Unmaintained (3.1 years since last release)
+- 🟥 [lodash-es@4.17.21](https://github.com/lodash/lodash.git) - Unmaintained (3.1 years since last release)
+- 🟧 motion@10.17.0 - Unable to find information on npm.
+- 🟩 [openai@4.17.1](https://github.com/openai/openai-node.git) - (Latest 4.32.2)
+- 🟩 [peltejs@0.0.3](https://github.com/98mux/pelte.git)
+- 🟩 [pocketbase@0.21.1](https://github.com/pocketbase/js-sdk.git)
+- 🟩 [pocketbase-typegen@1.2.1](https://github.com/patmood/pocketbase-typegen.git)
+- 🟩 [postcss@8.4.32](https://github.com/postcss/postcss.git) - (Latest 8.4.38)
+- 🟧 [prettier@2.8.8](https://github.com/prettier/prettier.git) - (Latest 3.2.5) - Is behind 1 major version.
+- 🟧 [prettier-plugin-svelte@2.10.1](https://github.com/sveltejs/prettier-plugin-svelte.git) - (Latest 3.2.2) - Is behind 1 major version.
+- 🟩 [pwa-asset-generator@6.3.1](https://github.com/elegantapp/pwa-asset-generator.git)
+- 🟩 [svelte@5.0.0-next.90](https://github.com/sveltejs/svelte.git) - (Latest 4.2.12)
+- 🟩 [svelte-check@3.5.2](https://github.com/sveltejs/language-tools.git) - (Latest 3.6.9)
+- 🟩 [svelte-confetti@1.3.1](https://github.com/Mitcheljager/svelte-confetti.git) - (Latest 1.4.0)
+- 🟩 [svelte-french-toast@1.2.0](https://github.com/kbrgl/svelte-french-toast.git)
+- 🟩 [svelte-preprocess@5.1.3](https://github.com/sveltejs/svelte-preprocess.git)
+- 🟩 [swiper@11.0.7](https://github.com/nolimits4web/Swiper.git) - (Latest 11.1.0)
+- 🟩 [tailwindcss@3.3.5](https://github.com/tailwindlabs/tailwindcss.git) - (Latest 3.4.3)
+- 🟩 [trpc-sveltekit@3.5.22](https://github.com/icflorescu/trpc-sveltekit.git) - (Latest 3.6.1)
+- 🟩 [tslib@2.6.2](https://github.com/Microsoft/tslib.git)
+- 🟩 [typescript@5.2.2](https://github.com/Microsoft/TypeScript.git) - (Latest 5.4.4)
+- 🟩 [uuid@9.0.1](https://github.com/uuidjs/uuid.git)
+- 🟥 [uuidv4@6.2.13](https://github.com/thenativeweb/uuidv4.git) - Unmaintained (2 years since last release)
+- 🟩 [vite@5.0.12](https://github.com/vitejs/vite.git) - (Latest 5.2.8)
+- 🟩 [zod@3.22.4](https://github.com/colinhacks/zod.git)
+### Maintenance Score
+40 out of 51 dependencies were up to date without issues.
+
+
+
+## Nonstandard naming
+The following files and folders do not follow the standard naming convention:
+
+- /lib/Game/Enemy.svelte
+- /lib/Game/GameCard.svelte
+- /lib/Game/Stats.svelte
+- /lib/Game/effects/Coin.svelte
+- /lib/Game/effects/DisplayNumber.svelte
+- /lib/Game/effects/ImageCutout.svelte
+- /lib/Game/effects/Number.svelte
+- /lib/Game/effects/Particle.svelte
+- /lib/Game/effects/Particles.svelte
+- /lib/Game/effects/ProgressBar.svelte
+- /lib/Game/effects/ProgressBarWithText.svelte
+- /lib/Game/game.ts
+- /lib/Game/gameCalculations.ts
+- /lib/Game/popup/HeroCard.svelte
+- /lib/Game/popup/PopupUpgrades.svelte
+- /lib/Game/popup/UpgradeCard.svelte
+- /lib/Game/trpcGame.ts
+- /lib/Tabs.svelte
+- /lib/challenges/ChallengeItem.svelte
+- /lib/challenges/ChallengeItemDailyCheckin.svelte
+- /lib/challenges/Goals.svelte
+- /lib/challenges/GroupChallenges.svelte
+- /lib/challenges/Leaderboard.svelte
+- /lib/challenges/Main.svelte
+- /lib/challenges/TodaysChallenges.svelte
+- /lib/challenges/addChallenge/PopupAddChallenge.svelte
+- /lib/challenges/addChallenge/addChallenge.ts
+- /lib/challenges/chat/Messages.svelte
+- /lib/challenges/chat/trpcChat.ts
+- /lib/challenges/completeChallenge/PopupChallengeCompleted.svelte
+- /lib/challenges/completeChallenge/RangeHowBadWasIt.svelte
+- /lib/challenges/completeChallenge/RangeHowGoodDidItFeel.svelte
+- /lib/challenges/generateChallenge/ChallengeSuggestionsBasedOnContextAndSituation.svelte
+- /lib/challenges/generateChallenge/Choice.svelte
+- /lib/challenges/generateChallenge/Choices.svelte
+- /lib/challenges/generateChallenge/PopupGenerateChallenge.svelte
+- /lib/challenges/generateChallenge/server/bots/challenge-approach.ts
+- /lib/challenges/generateChallenge/server/bots/challenge-date-ideas.ts
+- /lib/challenges/generateChallenge/server/bots/challenge-friends.ts
+- /lib/challenges/generateChallenge/server/bots/challenge-gratitude.ts
+- /lib/challenges/repeatables/AddRepeatable.svelte
+- /lib/challenges/repeatables/EditRepeatable.svelte
+- /lib/challenges/repeatables/EmojiPicker.svelte
+- /lib/challenges/repeatables/RepeatableItem.svelte
+- /lib/challenges/repeatables/Repeatables.svelte
+- /lib/challenges/repeatables/RepeatablesPopupEdit.svelte
+- /lib/challenges/repeatables/trpcRepeatables.ts
+- /lib/challenges/swipeChallenges/SwipeChallenges.svelte
+- /lib/challenges/swipeChallenges/swiper/Swiper.svelte
+- /lib/challenges/swipeChallenges/swiper/Swiper2.svelte
+- /lib/challenges/swipeChallenges/swiper/effect-tinder.css
+- /lib/challenges/swipeChallenges/swiper/effect-tinder.esm.js
+- /lib/challenges/swipeChallenges/swiper/effect-tinder.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/.editorconfig
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/.eslintrc.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/.gitignore
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/.prettierrc
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/.vscode/settings.json
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/LICENSE.md
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/README.md
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/favicon.png
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/01.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/02.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/03.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/04.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/05.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/egypt.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/england.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/france.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/india.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/assets/images/italy.jpg
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/build/banner.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/build/build-css.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/build/build-demo-static.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/build/build-js.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/build/build.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-static/demo-recommendations.css
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-static/demo-recommendations.html
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-static/demo-tinder.css
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-static/demo-tinder.html
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-static/index.css
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-static/index.html
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/demo-recommendations.html
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/demo-recommendations.scss
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/demo-tinder.html
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/demo-tinder.scss
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/effect-tinder.esm.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/effect-tinder.scss
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/index.html
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/index.scss
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/demo-vite/vite.config.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/dist/effect-tinder.css
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/dist/effect-tinder.esm.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/dist/effect-tinder.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/dist/effect-tinder.js.map
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/dist/effect-tinder.min.css
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/dist/effect-tinder.min.js
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/dist/effect-tinder.min.js.map
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/dist/effect-tinder.scss
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/package-lock.json
+- /lib/challenges/swipeChallenges/swiper/uiinitiative-tinder-slider-1ea5323708ebde81fd524a06aac8b2fa3df8ae5f/package.json
+- /lib/challenges/trpcChallenges.ts
+- /lib/chat/Chat.svelte
+- /lib/chat/Chats.svelte
+- /lib/chat/trpcChat.ts
+- /lib/components/ListInput2.svelte
+- /lib/components/Overlay.svelte
+- /lib/components/Popup.svelte
+- /lib/components/Range.svelte
+- /lib/components/RangeResistance.svelte
+- /lib/getUserIdPromise.ts
+- /lib/misc/admin/AddGoodChallenge.svelte
+- /lib/misc/auth/client/LoginScreen.svelte
+- /lib/misc/auth/server/trpcUser.ts
+- /lib/misc/daily/Daily.svelte
+- /lib/misc/daily/DialogStopSuggesting.svelte
+- /lib/misc/daily/slides/ContinueButton.svelte
+- /lib/misc/daily/slides/DailyChallengeCard.svelte
+- /lib/misc/daily/slides/DailyChallenges.svelte
+- /lib/misc/daily/slides/DailyEnergyFill.svelte
+- /lib/misc/daily/slides/DailyHabits.svelte
+- /lib/misc/daily/slides/DailyPaywall.svelte
+- /lib/misc/daily/slides/DailyReminder.svelte
+- /lib/misc/daily/slides/DailyReward.svelte
+- /lib/misc/daily/slides/DailyStats.svelte
+- /lib/misc/daily/slides/DailySuggestedChallenges.svelte
+- /lib/misc/daily/slides/DailyUncompletedChallenges.svelte
+- /lib/misc/daily/slides/SuggestedChallenge2.svelte
+- /lib/misc/onboarding/AllSlides.svelte
+- /lib/misc/onboarding/slides/SlideChooseBot.svelte
+- /lib/misc/onboarding/slides/SlideComponents/Slide.svelte
+- /lib/misc/onboarding/slides/SlideComponents/SlideInfo.svelte
+- /lib/misc/onboarding/slides/SlideCravings.svelte
+- /lib/misc/onboarding/slides/SlideFears.svelte
+- /lib/misc/onboarding/slides/SlideFeelInnerResistance.svelte
+- /lib/misc/onboarding/slides/SlideGoals.svelte
+- /lib/misc/onboarding/slides/SlideLogin.svelte
+- /lib/misc/onboarding/slides/SlideNotification.svelte
+- /lib/misc/onboarding/slides/SlideRepeatables.svelte
+- /lib/misc/onboarding/slides/SlideRepeatablesConfig.svelte
+- /lib/misc/onboarding/slides/SlideTodaysChallenges.svelte
+- /lib/misc/onboarding/slides/SlideWhatAreYouDoingToday.svelte
+- /lib/pocketbase/pocketBaseTypes.ts
+- /lib/pocketbase/pocketbaseAdmin.server.ts
+- /lib/trpc/trpcAll.ts
+- /lib/utils/Portal.svelte
+- /lib/utils/Portal2.svelte
+- /lib/utils/PortalConsumer.svelte
+- /lib/utils/debug/PrintConsoleLogs.svelte
+- /lib/utils/localStorageStore.ts
+- /routes/challenge/[challenge_id]/Challenge.svelte
+- /routes/challenge/[challenge_id]/ChallengeBot.svelte
+- /routes/challenge/[challenge_id]/ChallengeCard.svelte
+- /routes/challenge/[challenge_id]/ChallengeCardTools.svelte
+- /routes/challenge/[challenge_id]/PopupEditChallenge.svelte

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources>
+    <string name="app_name">Fearless</string>
+    <string name="title_activity_main">Fearless</string>
+    <string name="package_name">app.becomefearless.app</string>
+    <string name="custom_url_scheme">app.becomefearless.app</string>
+</resources>

@@ -1,0 +1,70 @@
+# Cursor rules — Svelte 5 essentials (runes mode)
+
+This project uses exclusively Svelte 5 for the frontend.
+
+# Rules
+
+Do not use dispatch or createEventDispatcher. Use $props instead.
+
+# Mutating and using state from server
+
+Try to use the tables.svelte.ts tables to get rows and mutate and create rows and get list etc!
+
+# Types in the server
+
+pocketBaseTypes.ts provides the types for the database and the row and tables on the pocketbase server
+
+## Runes: treat as keywords (no imports)
+
+- State: use $state
+  - let count = $state(0); // mutate directly: count++
+  - Arrays/objects are deeply reactive; DO NOT destructure proxies (breaks reactivity).
+- Derived: use $derived (pure only)
+  - const double = $derived(count \* 2);
+  - Multi-line: const total = $derived.by(() => items.reduce((a,b)=>a+b,0));
+  - You MAY temporarily override a derived (e.g. optimistic UI); it reverts on next dependency change.
+- Effects: use $effect for side-effects only (return cleanup)
+  - $effect(() => { const id = setTimeout(fn,200); return () => clearTimeout(id); });
+  - Pre-DOM variant: $effect.pre(() => {/_ before DOM update _/});
+- Props: use $props
+  - let { foo = true, bar } = $props(); // defaults, renames, rest supported
+  - DO NOT mutate props directly.
+- Two-way: use $bindable in child
+  - let { value = $bindable('') } = $props(); // <Child bind:value={x} />
+- Custom elements host (only when making custom elements): $host()
+
+## Events & template
+
+- DOM events: use inline attrs (no colon) → <button onclick={inc}>…</button>
+- Control flow stays the same: {#if}, {#each}, {#await}.
+- Form fields: use bind: <input bind:value={name} />
+- Classes can be objects: <div class={{ active, disabled: !ok }} />
+
+## Useful variants (when needed)
+
+- $state.raw: shallow state; reassign whole object to update.
+- $state.snapshot(x): plain object copy for external APIs.
+
+## Style & intent for AI
+
+- Prefer small components; side-effects only in $effect.
+- No legacy `$:` reactivity; use runes.
+- Prefer onclick over on:click; prefer $state/$derived over stores for local state.
+
+## Snippets & {@render}
+
+- Define snippet inline:
+  {#snippet row(item)}<li>{item}</li>{/snippet}
+- Render with {@render row(d)}.
+- Snippets replace Svelte 4 slots.
+- Passing snippets: `<List {row} />` → in List: `let { row, children } = $props();`
+- Fallback content becomes `children`.
+- Always call snippet with `{@render}` instead of slot syntax.
+
+## Components
+
+- Child props via $props; defaults allowed.
+- Child can expose bindable props (`$bindable`) for parent `bind:`.
+- For markup slots, use snippets/children:
+  <Button>Click me</Button>  
+  → inside Button: `let { children } = $props();` then `<button>{@render children()}</button>`

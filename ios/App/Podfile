@@ -1,0 +1,55 @@
+require_relative '../../node_modules/@capacitor/ios/scripts/pods_helpers'
+
+platform :ios, '15.4'
+use_frameworks!
+
+# workaround to avoid Xcode caching of Pods that requires
+# Product -> Clean Build Folder after new Cordova plugins installed
+# Requires CocoaPods 1.6 or newer
+install! 'cocoapods', :disable_input_output_paths => true
+
+def capacitor_pods
+  pod 'Capacitor', :path => '../../node_modules/@capacitor/ios'
+  pod 'CapacitorCordova', :path => '../../node_modules/@capacitor/ios'
+  pod 'CapacitorCommunityAppIcon', :path => '../../node_modules/@capacitor-community/app-icon'
+  pod 'CapacitorCommunityKeepAwake', :path => '../../node_modules/@capacitor-community/keep-awake'
+  pod 'CapacitorCamera', :path => '../../node_modules/@capacitor/camera'
+  pod 'CapacitorDialog', :path => '../../node_modules/@capacitor/dialog'
+  pod 'CapacitorHaptics', :path => '../../node_modules/@capacitor/haptics'
+  pod 'CapacitorLocalNotifications', :path => '../../node_modules/@capacitor/local-notifications'
+  pod 'CapacitorPushNotifications', :path => '../../node_modules/@capacitor/push-notifications'
+  pod 'CapacitorSplashScreen', :path => '../../node_modules/@capacitor/splash-screen'
+  pod 'CapacitorTextZoom', :path => '../../node_modules/@capacitor/text-zoom'
+  pod 'RevenuecatPurchasesCapacitor', :path => '../../node_modules/@revenuecat/purchases-capacitor'
+  pod 'CapacitorCommunityInAppReview', :path => '../../node_modules/@capacitor-community/in-app-review'
+  pod 'CapacitorCommunityMedia', :path => '../../node_modules/@capacitor-community/media'
+  pod 'CapacitorFilesystem', :path => '../../node_modules/@capacitor/filesystem'
+  pod 'CapacitorApp', :path => '../../node_modules/@capacitor/app'
+  pod 'CapacitorBrowser', :path => '../../node_modules/@capacitor/browser'
+  pod 'CapacitorClipboard', :path => '../../node_modules/@capacitor/clipboard'
+  pod 'CapacitorDevice', :path => '../../node_modules/@capacitor/device'
+  pod 'CapacitorKeyboard', :path => '../../node_modules/@capacitor/keyboard'
+  pod 'CapacitorScreenOrientation', :path => '../../node_modules/@capacitor/screen-orientation'
+  pod 'CapacitorShare', :path => '../../node_modules/@capacitor/share'
+  pod 'CordovaPlugins', :path => '../capacitor-cordova-ios-plugins'
+end
+
+target 'App' do
+  capacitor_pods
+  # Add your Pods here
+  pod 'Firebase/Messaging' # Add this line
+  pod 'RevenueCat'
+  pod 'RevenueCatUI'
+  #pod 'FBSDKCoreKit'
+  #pod 'FBSDKLoginKit'
+  #pod 'FBSDKShareKit'
+  #pod 'FacebookSDK'
+  #pod 'FacebookSDK/LoginKit'
+  #pod 'FacebookSDK/ShareKit'
+  #pod 'FacebookSDK/PlacesKit'
+  #pod 'FBSDKMessengerShareKit'
+end
+
+post_install do |installer|
+  assertDeploymentTarget(installer)
+end

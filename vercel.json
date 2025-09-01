@@ -1,0 +1,12 @@
+{
+	"crons": [
+	  {
+		"path": "/cors/cron_jobs/every_minute",
+		"schedule": "* * * * *"
+	  },
+	  {
+		"path": "/cors/cron_jobs/every_hour",
+		"schedule": "0 * * * *"
+	  }
+	]
+  }
