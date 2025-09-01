@@ -2,8 +2,8 @@ import adapter from '@sveltejs/adapter-static'
 import preprocess from "svelte-preprocess";
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import vercel from '@sveltejs/adapter-vercel';
-import cloudflare from '@sveltejs/adapter-cloudflare';
-import netlify from '@sveltejs/adapter-netlify';
+// import cloudflare from '@sveltejs/adapter-cloudflare';
+// import netlify from '@sveltejs/adapter-netlify';
 import {breferPreprocess} from 'peltejs';
 
 
